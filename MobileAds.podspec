@@ -16,8 +16,8 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "MobileAds"
-  spec.version      = "1.0.0"
-  spec.summary      = "A Framework that extends from Google-Mobile-Ads-SDK"
+  spec.version      = "1.0.1"
+  spec.summary      = "A small framework extending from Google-Mobile-Ads-SDK"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-  create MobileAds framework
+  MobileAds is a Swift framework that supports the base display ad types from google making it convenient to configure
                    DESC
 
   spec.homepage     = "https://github.com/anhvu1993"

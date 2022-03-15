@@ -10,6 +10,7 @@
 		042F528227D8E09E008D5330 /* MobileAds.docc in Sources */ = {isa = PBXBuildFile; fileRef = 042F528127D8E09E008D5330 /* MobileAds.docc */; };
 		042F528327D8E09E008D5330 /* MobileAds.h in Headers */ = {isa = PBXBuildFile; fileRef = 042F528027D8E09E008D5330 /* MobileAds.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		042F528A27D8E106008D5330 /* APIRequestLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042F528927D8E106008D5330 /* APIRequestLoader.swift */; };
+		762FF57827E07F2700FA8684 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 762FF57727E07F2700FA8684 /* Media.xcassets */; };
 		9518C34C82D27DEB7F343B3D /* Pods_MobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFA7FFED897F79E7EE95595D /* Pods_MobileAds.framework */; };
 /* End PBXBuildFile section */
 
@@ -19,6 +20,7 @@
 		042F528127D8E09E008D5330 /* MobileAds.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = MobileAds.docc; sourceTree = "<group>"; };
 		042F528927D8E106008D5330 /* APIRequestLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequestLoader.swift; sourceTree = "<group>"; };
 		3D6191E3A787BACD7741EE30 /* Pods-MobileAds.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileAds.release.xcconfig"; path = "Target Support Files/Pods-MobileAds/Pods-MobileAds.release.xcconfig"; sourceTree = "<group>"; };
+		762FF57727E07F2700FA8684 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		81C375E0FFD76EAD714F0329 /* Pods-MobileAds.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileAds.debug.xcconfig"; path = "Target Support Files/Pods-MobileAds/Pods-MobileAds.debug.xcconfig"; sourceTree = "<group>"; };
 		DFA7FFED897F79E7EE95595D /* Pods_MobileAds.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobileAds.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -59,6 +61,7 @@
 				042F528027D8E09E008D5330 /* MobileAds.h */,
 				042F528127D8E09E008D5330 /* MobileAds.docc */,
 				042F528927D8E106008D5330 /* APIRequestLoader.swift */,
+				762FF57727E07F2700FA8684 /* Media.xcassets */,
 			);
 			path = MobileAds;
 			sourceTree = "<group>";
@@ -69,7 +72,6 @@
 				81C375E0FFD76EAD714F0329 /* Pods-MobileAds.debug.xcconfig */,
 				3D6191E3A787BACD7741EE30 /* Pods-MobileAds.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -151,6 +153,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				762FF57827E07F2700FA8684 /* Media.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
