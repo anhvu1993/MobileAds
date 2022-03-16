@@ -12,7 +12,7 @@
 		762FF57827E07F2700FA8684 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 762FF57727E07F2700FA8684 /* Assets.xcassets */; };
 		7695570027E19EAE0028127E /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769556FE27E19EAE0028127E /* TestViewController.swift */; };
 		7695570127E19EAE0028127E /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 769556FF27E19EAE0028127E /* TestViewController.xib */; };
-		7695570627E1A6010028127E /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7695570527E1A6010028127E /* Bundle.swift */; };
+		7695570627E1A6010028127E /* BundleAds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7695570527E1A6010028127E /* BundleAds.swift */; };
 		7695570927E1BDA80028127E /* AdsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7695570827E1BDA80028127E /* AdsManager.swift */; };
 		9518C34C82D27DEB7F343B3D /* Pods_MobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFA7FFED897F79E7EE95595D /* Pods_MobileAds.framework */; };
 /* End PBXBuildFile section */
@@ -25,7 +25,7 @@
 		762FF57727E07F2700FA8684 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		769556FE27E19EAE0028127E /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		769556FF27E19EAE0028127E /* TestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
-		7695570527E1A6010028127E /* Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
+		7695570527E1A6010028127E /* BundleAds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleAds.swift; sourceTree = "<group>"; };
 		7695570827E1BDA80028127E /* AdsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsManager.swift; sourceTree = "<group>"; };
 		81C375E0FFD76EAD714F0329 /* Pods-MobileAds.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileAds.debug.xcconfig"; path = "Target Support Files/Pods-MobileAds/Pods-MobileAds.debug.xcconfig"; sourceTree = "<group>"; };
 		DFA7FFED897F79E7EE95595D /* Pods_MobileAds.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobileAds.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -103,7 +103,7 @@
 		7695570227E1A2A80028127E /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				7695570527E1A6010028127E /* Bundle.swift */,
+				7695570527E1A6010028127E /* BundleAds.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -224,7 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7695570027E19EAE0028127E /* TestViewController.swift in Sources */,
-				7695570627E1A6010028127E /* Bundle.swift in Sources */,
+				7695570627E1A6010028127E /* BundleAds.swift in Sources */,
 				7695570927E1BDA80028127E /* AdsManager.swift in Sources */,
 				042F528227D8E09E008D5330 /* MobileAds.docc in Sources */,
 			);
