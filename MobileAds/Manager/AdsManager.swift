@@ -12,7 +12,7 @@ public class AdsManager {
    public static let shared = AdsManager()
     
     public func showTest(in vc: UIViewController) {
-        let testVc = TestViewController()
+        let testVc = TestViewController.instance()
         vc.present(testVc, animated: true, completion: nil)
     }
 }
