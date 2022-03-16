@@ -14,16 +14,9 @@ public class TestViewController: UIViewController {
     public override func viewDidLoad() {
         super.viewDidLoad()
        
-        imgTest.image = UIImage(named: "ic_test", in: BundleAds.bundle(), compatibleWith: nil)
+        imgTest.image = UIImage(named: "ic_test", in: Bundle(for: type(of: self)), compatibleWith: nil)
         // Do any additional setup after loading the view.
     }
-    
-    public init() {
-        super.init(nibName: "TestViewController", bundle: Bundle(for: type(of: self)))
-    }
-    
-    required init?(coder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
+
 }
 
