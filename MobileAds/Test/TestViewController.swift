@@ -17,5 +17,12 @@ public class TestViewController: UIViewController {
         imgTest.image = UIImage(named: "ic_test", in: BundleAds.bundle(), compatibleWith: nil)
         // Do any additional setup after loading the view.
     }
-
+    
+    public init() {
+        super.init(nibName: "TestViewController", bundle: Bundle(for: type(of: self)))
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
 }
