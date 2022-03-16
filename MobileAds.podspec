@@ -93,7 +93,9 @@ Pod::Spec.new do |spec|
 
   spec.source_files  = "MobileAds", "MobileAds/**/*.{h,m,xib,swift}"
   spec.exclude_files = "MobileAds/Exclude"
-  spec.resources     = "MobileAds/MobileAds/**/*.xcassets"
+  # spec.resources     = "MobileAds/**/*.xcassets"
+
+   # spec.resources     = "MobileAds/**/*.xcassets"
 
   # spec.public_header_files = "Classes/**/*.h"
 
