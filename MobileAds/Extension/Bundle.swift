@@ -13,7 +13,7 @@ private class BundleFinder {}
 extension Foundation.Bundle {
     /// Returns the resource bundle associated with the current Swift module.
     static var module: Bundle = {
-        let bundleName = "MobileAds"
+        let bundleName = "BioSwift_BioSwift"
 
         let candidates = [
             // Bundle should be present here when the package is linked into an App.
