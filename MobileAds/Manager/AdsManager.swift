@@ -16,4 +16,10 @@ public class AdsManager {
         let testVc = Test2ViewController(nibName: "Test2ViewController", bundle: bundel)
         vc.present(testVc, animated: true, completion: nil)
     }
+    
+    public func getMess() {
+        print("create a framework demo")
+        let image = UIImage(named: "ic_test", in: Bundle(for: type(of: self)), with: nil)
+        print(image)
+    }
 }
