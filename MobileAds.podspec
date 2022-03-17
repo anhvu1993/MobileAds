@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "MobileAds"
-  spec.version      = "1.0.13"
+  spec.version      = "1.0.14"
   spec.summary      = "A small framework extending from Google-Mobile-Ads-SDK"
 
   # This description is used to generate tags and improve search results.
@@ -81,6 +81,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.source       = { :git => "https://github.com/anhvu1993/MobileAds.git", :tag => "#{spec.version}" }
+  spec.frameworks   = "Foundation", "UIKit", "Photos", "AVFoundation"
 # spec.source       = { :git => "https://github.com/AperoVN-iOS/MobileAds.git", :tag => "#{spec.version}" }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
