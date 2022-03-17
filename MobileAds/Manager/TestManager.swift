@@ -8,18 +8,18 @@
 import Foundation
 import UIKit
 
-public class AdsManager {
-   public static let shared = AdsManager()
+public class TestManager {
+   public static let shared = TestManager()
     
     public func showTest(in vc: UIViewController) {
-        let bundel = Bundle.init(for: Test2ViewController.self)
-        let testVc = Test2ViewController(nibName: "Test2ViewController", bundle: bundel)
+        let bundel = Bundle.init(for: TestViewController.self)
+        let testVc = TestViewController(nibName: "TestViewController", bundle: bundel)
         vc.present(testVc, animated: true, completion: nil)
     }
     
     public func getMess() {
         print("create a framework demo")
-        let image = UIImage(named: "ic_test", in: Bundle(for: type(of: self)), with: nil)
+        let image = UIImage(named: "ic_test", in: Bundle(for: type(of: self)), compatibleWith: nil)
         print(image)
     }
 }
