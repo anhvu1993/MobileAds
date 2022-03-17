@@ -14,6 +14,8 @@
 		760580B827E3221800975794 /* TestAdsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760580B727E3221800975794 /* TestAdsUITestsLaunchTests.swift */; };
 		760580C227E3286000975794 /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 769556FF27E19EAE0028127E /* TestViewController.xib */; };
 		762FF57827E07F2700FA8684 /* AdsMedia.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 762FF57727E07F2700FA8684 /* AdsMedia.xcassets */; };
+		767BC4B927E350E0007E975F /* Test2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767BC4B727E350E0007E975F /* Test2ViewController.swift */; };
+		767BC4BA27E350E0007E975F /* Test2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 767BC4B827E350E0007E975F /* Test2ViewController.xib */; };
 		7695570027E19EAE0028127E /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769556FE27E19EAE0028127E /* TestViewController.swift */; };
 		7695570627E1A6010028127E /* BundleAds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7695570527E1A6010028127E /* BundleAds.swift */; };
 		7695570927E1BDA80028127E /* AdsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7695570827E1BDA80028127E /* AdsManager.swift */; };
@@ -31,6 +33,8 @@
 		760580B527E3221800975794 /* TestAdsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAdsUITests.swift; sourceTree = "<group>"; };
 		760580B727E3221800975794 /* TestAdsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAdsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		762FF57727E07F2700FA8684 /* AdsMedia.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AdsMedia.xcassets; sourceTree = "<group>"; };
+		767BC4B727E350E0007E975F /* Test2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test2ViewController.swift; sourceTree = "<group>"; };
+		767BC4B827E350E0007E975F /* Test2ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Test2ViewController.xib; sourceTree = "<group>"; };
 		769556FE27E19EAE0028127E /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		769556FF27E19EAE0028127E /* TestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
 		7695570527E1A6010028127E /* BundleAds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleAds.swift; sourceTree = "<group>"; };
@@ -96,6 +100,8 @@
 				042F528027D8E09E008D5330 /* MobileAds.h */,
 				042F528127D8E09E008D5330 /* MobileAds.docc */,
 				762FF57727E07F2700FA8684 /* AdsMedia.xcassets */,
+				767BC4B727E350E0007E975F /* Test2ViewController.swift */,
+				767BC4B827E350E0007E975F /* Test2ViewController.xib */,
 			);
 			path = MobileAds;
 			sourceTree = "<group>";
@@ -275,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				760580C227E3286000975794 /* TestViewController.xib in Resources */,
+				767BC4BA27E350E0007E975F /* Test2ViewController.xib in Resources */,
 				762FF57827E07F2700FA8684 /* AdsMedia.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -325,6 +332,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				767BC4B927E350E0007E975F /* Test2ViewController.swift in Sources */,
 				7695570027E19EAE0028127E /* TestViewController.swift in Sources */,
 				7695570627E1A6010028127E /* BundleAds.swift in Sources */,
 				7695570927E1BDA80028127E /* AdsManager.swift in Sources */,
