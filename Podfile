@@ -6,6 +6,6 @@ target 'MobileAds' do
   use_frameworks!
 
   # Pods for MobileAds
-pod 'Google-Mobile-Ads-SDK', '~> 8.13.0'
+#pod 'Google-Mobile-Ads-SDK', '~> 8.13.0'
 
 end
