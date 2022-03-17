@@ -9,9 +9,12 @@
 /* Begin PBXBuildFile section */
 		042F528227D8E09E008D5330 /* MobileAds.docc in Sources */ = {isa = PBXBuildFile; fileRef = 042F528127D8E09E008D5330 /* MobileAds.docc */; };
 		042F528327D8E09E008D5330 /* MobileAds.h in Headers */ = {isa = PBXBuildFile; fileRef = 042F528027D8E09E008D5330 /* MobileAds.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		760580AC27E3221800975794 /* TestAdsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760580AB27E3221800975794 /* TestAdsTests.swift */; };
+		760580B627E3221800975794 /* TestAdsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760580B527E3221800975794 /* TestAdsUITests.swift */; };
+		760580B827E3221800975794 /* TestAdsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760580B727E3221800975794 /* TestAdsUITestsLaunchTests.swift */; };
+		760580C227E3286000975794 /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 769556FF27E19EAE0028127E /* TestViewController.xib */; };
 		762FF57827E07F2700FA8684 /* AdsMedia.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 762FF57727E07F2700FA8684 /* AdsMedia.xcassets */; };
 		7695570027E19EAE0028127E /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769556FE27E19EAE0028127E /* TestViewController.swift */; };
-		7695570127E19EAE0028127E /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 769556FF27E19EAE0028127E /* TestViewController.xib */; };
 		7695570627E1A6010028127E /* BundleAds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7695570527E1A6010028127E /* BundleAds.swift */; };
 		7695570927E1BDA80028127E /* AdsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7695570827E1BDA80028127E /* AdsManager.swift */; };
 		9518C34C82D27DEB7F343B3D /* Pods_MobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFA7FFED897F79E7EE95595D /* Pods_MobileAds.framework */; };
@@ -22,6 +25,11 @@
 		042F528027D8E09E008D5330 /* MobileAds.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MobileAds.h; sourceTree = "<group>"; };
 		042F528127D8E09E008D5330 /* MobileAds.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = MobileAds.docc; sourceTree = "<group>"; };
 		3D6191E3A787BACD7741EE30 /* Pods-MobileAds.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileAds.release.xcconfig"; path = "Target Support Files/Pods-MobileAds/Pods-MobileAds.release.xcconfig"; sourceTree = "<group>"; };
+		760580A727E3221800975794 /* TestAdsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestAdsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		760580AB27E3221800975794 /* TestAdsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAdsTests.swift; sourceTree = "<group>"; };
+		760580B127E3221800975794 /* TestAdsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestAdsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		760580B527E3221800975794 /* TestAdsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAdsUITests.swift; sourceTree = "<group>"; };
+		760580B727E3221800975794 /* TestAdsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAdsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		762FF57727E07F2700FA8684 /* AdsMedia.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AdsMedia.xcassets; sourceTree = "<group>"; };
 		769556FE27E19EAE0028127E /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		769556FF27E19EAE0028127E /* TestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
@@ -40,6 +48,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		760580A427E3221800975794 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		760580AE27E3221800975794 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -47,6 +69,8 @@
 			isa = PBXGroup;
 			children = (
 				042F527F27D8E09E008D5330 /* MobileAds */,
+				760580AA27E3221800975794 /* TestAdsTests */,
+				760580B427E3221800975794 /* TestAdsUITests */,
 				042F527E27D8E09E008D5330 /* Products */,
 				0B3C28970600E0290042C2E8 /* Pods */,
 				16EE450534645BD057CED3CC /* Frameworks */,
@@ -57,6 +81,8 @@
 			isa = PBXGroup;
 			children = (
 				042F527D27D8E09E008D5330 /* MobileAds.framework */,
+				760580A727E3221800975794 /* TestAdsTests.xctest */,
+				760580B127E3221800975794 /* TestAdsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -89,6 +115,23 @@
 				DFA7FFED897F79E7EE95595D /* Pods_MobileAds.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		760580AA27E3221800975794 /* TestAdsTests */ = {
+			isa = PBXGroup;
+			children = (
+				760580AB27E3221800975794 /* TestAdsTests.swift */,
+			);
+			path = TestAdsTests;
+			sourceTree = "<group>";
+		};
+		760580B427E3221800975794 /* TestAdsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				760580B527E3221800975794 /* TestAdsUITests.swift */,
+				760580B727E3221800975794 /* TestAdsUITestsLaunchTests.swift */,
+			);
+			path = TestAdsUITests;
 			sourceTree = "<group>";
 		};
 		769556FD27E19E980028127E /* Test */ = {
@@ -149,6 +192,40 @@
 			productReference = 042F527D27D8E09E008D5330 /* MobileAds.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		760580A627E3221800975794 /* TestAdsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 760580C027E3221800975794 /* Build configuration list for PBXNativeTarget "TestAdsTests" */;
+			buildPhases = (
+				760580A327E3221800975794 /* Sources */,
+				760580A427E3221800975794 /* Frameworks */,
+				760580A527E3221800975794 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestAdsTests;
+			productName = TestAdsTests;
+			productReference = 760580A727E3221800975794 /* TestAdsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		760580B027E3221800975794 /* TestAdsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 760580C127E3221800975794 /* Build configuration list for PBXNativeTarget "TestAdsUITests" */;
+			buildPhases = (
+				760580AD27E3221800975794 /* Sources */,
+				760580AE27E3221800975794 /* Frameworks */,
+				760580AF27E3221800975794 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestAdsUITests;
+			productName = TestAdsUITests;
+			productReference = 760580B127E3221800975794 /* TestAdsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -156,10 +233,19 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
 					042F527C27D8E09E008D5330 = {
 						CreatedOnToolsVersion = 13.2.1;
+					};
+					760580A627E3221800975794 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 7605809127E3221700975794;
+					};
+					760580B027E3221800975794 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 7605809127E3221700975794;
 					};
 				};
 			};
@@ -177,6 +263,8 @@
 			projectRoot = "";
 			targets = (
 				042F527C27D8E09E008D5330 /* MobileAds */,
+				760580A627E3221800975794 /* TestAdsTests */,
+				760580B027E3221800975794 /* TestAdsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -186,8 +274,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7695570127E19EAE0028127E /* TestViewController.xib in Resources */,
+				760580C227E3286000975794 /* TestViewController.xib in Resources */,
 				762FF57827E07F2700FA8684 /* AdsMedia.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		760580A527E3221800975794 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		760580AF27E3221800975794 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,6 +329,23 @@
 				7695570627E1A6010028127E /* BundleAds.swift in Sources */,
 				7695570927E1BDA80028127E /* AdsManager.swift in Sources */,
 				042F528227D8E09E008D5330 /* MobileAds.docc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		760580A327E3221800975794 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				760580AC27E3221800975794 /* TestAdsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		760580AD27E3221800975794 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				760580B627E3221800975794 /* TestAdsUITests.swift in Sources */,
+				760580B827E3221800975794 /* TestAdsUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +404,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -343,7 +462,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -359,9 +478,12 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 81C375E0FFD76EAD714F0329 /* Pods-MobileAds.debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = RH9YKQS2KV;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -388,9 +510,12 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3D6191E3A787BACD7741EE30 /* Pods-MobileAds.release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = RH9YKQS2KV;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -413,6 +538,74 @@
 			};
 			name = Release;
 		};
+		760580BB27E3221800975794 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.note.vunk.TestAdsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestAds.app/TestAds";
+			};
+			name = Debug;
+		};
+		760580BC27E3221800975794 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.note.vunk.TestAdsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestAds.app/TestAds";
+			};
+			name = Release;
+		};
+		760580BD27E3221800975794 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.note.vunk.TestAdsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TestAds;
+			};
+			name = Debug;
+		};
+		760580BE27E3221800975794 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.note.vunk.TestAdsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TestAds;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -430,6 +623,24 @@
 			buildConfigurations = (
 				042F528727D8E09E008D5330 /* Debug */,
 				042F528827D8E09E008D5330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		760580C027E3221800975794 /* Build configuration list for PBXNativeTarget "TestAdsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				760580BB27E3221800975794 /* Debug */,
+				760580BC27E3221800975794 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		760580C127E3221800975794 /* Build configuration list for PBXNativeTarget "TestAdsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				760580BD27E3221800975794 /* Debug */,
+				760580BE27E3221800975794 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

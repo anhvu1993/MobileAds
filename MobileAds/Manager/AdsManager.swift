@@ -12,7 +12,8 @@ public class AdsManager {
    public static let shared = AdsManager()
     
     public func showTest(in vc: UIViewController) {
-        let testVc = TestViewController.instance()
+        let bundel = Bundle.init(for: TestViewController.self)
+        let testVc = TestViewController(nibName: "TestViewController", bundle: bundel)
         vc.present(testVc, animated: true, completion: nil)
     }
 }
