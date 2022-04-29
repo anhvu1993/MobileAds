@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "MobileAds"
-  spec.version      = "1.0.22"
+  spec.version      = "1.1.1"
   spec.summary      = "A small framework extending from Google-Mobile-Ads-SDK"
 
   # This description is used to generate tags and improve search results.
@@ -146,6 +146,8 @@ Pod::Spec.new do |spec|
   spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # spec.dependency "Google-Mobile-Ads-SDK", '~> 8.13.0'
-
+  spec.dependency "Google-Mobile-Ads-SDK", '~> 8.13.0'
+  spec.dependency "MONActivityIndicatorView", '~> 0.0.3'
+  spec.dependency "SnapKit", '~> 5.6.0'
+  spec.dependency "Adjust", '~> 4.29.2'
 end
