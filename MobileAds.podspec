@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "MobileAds"
-  spec.version      = "1.1.2"
+  spec.version      = "1.1.3"
   spec.summary      = "A small framework extending from Google-Mobile-Ads-SDK"
 
   # This description is used to generate tags and improve search results.
@@ -53,7 +53,7 @@ Pod::Spec.new do |spec|
   #  profile URL.
   #
 
-  spec.author             = { "vunk" => "vunk@apero.vn" }
+  spec.author             = { "vunk" => "mr.kent002@gmail.com" }
   # Or just: spec.author    = "vunk"
   # spec.authors            = { "vunk" => "vunk@apero.vn" }
   # spec.social_media_url   = "https://twitter.com/vunk"
