@@ -19,7 +19,7 @@ extension AdMobManager {
     }
     
     /// khởi tạo id ads trước khi show
-    func createAdRewardedIfNeed(unitId: String) {
+    public func createAdRewardedIfNeed(unitId: String) {
         if self.getAdRewarded(unitId: unitId) != nil {
             return
         }
@@ -50,7 +50,7 @@ extension AdMobManager {
         }
     }
     
-    func presentAdRewarded(unitId: String) {
+    public func presentAdRewarded(unitId: String) {
         createAdRewardedIfNeed(unitId: unitId)
         let rewarded = getAdRewarded(unitId: unitId)
         didEarnReward = false
@@ -62,7 +62,7 @@ extension AdMobManager {
         }
     }
     
-    func showRewarded(unitId: String, completion: BoolBlockAds?) {
+    public func showRewarded(unitId: String, completion: BoolBlockAds?) {
         if AdMobManager.shared.getAdRewarded(unitId: unitId) != nil {
             guard let rootVC = UIApplication.getTopViewController() else {
                 return

@@ -8,7 +8,7 @@
 import Foundation
 import GoogleMobileAds
 
-enum NativeAdType {
+public enum NativeAdType {
     case small
     case medium
     case unified
@@ -58,7 +58,7 @@ extension AdMobManager {
         }
     }
     
-    func addAdNative(unitId: String, rootVC: UIViewController, view: UIView, type: NativeAdType = .small) {
+    public func addAdNative(unitId: String, rootVC: UIViewController, view: UIView, type: NativeAdType = .small) {
         guard let adNativeView = self.createAdNativeIfNeed(unitId: unitId, type: type) else {
             return
         }

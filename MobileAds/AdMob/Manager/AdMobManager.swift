@@ -10,27 +10,28 @@ import GoogleMobileAds
 import SkeletonView
 import Adjust
 
+//    MARK: - Google-provided demo ad units
+public struct SampleAdUnitID {
+    public static let adFormatAppOpen              = "ca-app-pub-3940256099942544/3419835294"
+    public static let adFormatBanner               = "ca-app-pub-3940256099942544/6300978111"
+    public static let adFormatInterstitial         = "ca-app-pub-3940256099942544/1033173712"
+    public static let adFormatInterstitialVideo    = "ca-app-pub-3940256099942544/8691691433"
+    public static let adFormatRewarded             = "ca-app-pub-3940256099942544/5224354917"
+    public static let adFormatRewardedInterstitial = "ca-app-pub-3940256099942544/5354046379"
+    public static let adFormatNativeAdvanced       = "ca-app-pub-3940256099942544/2247696110"
+    public static let adFormatNativeAdvancedVideo  = "ca-app-pub-3940256099942544/1044960115"
+}
+
 open class AdMobManager: NSObject {
     
     //    MARK: - Property
-    static let shared = AdMobManager()
+    public static let shared = AdMobManager()
     public var timeOut: Int = 30
     public var didEarnReward = false
     public var showAdRewardCount = 0
     public var listAd: NSMutableDictionary = NSMutableDictionary()
     public var listLoader: NSMutableDictionary = NSMutableDictionary()
     public var setBackgroundButtonAds: UIColor = UIColor(hex: 0x007AFF)
-    //    MARK: - Google-provided demo ad units
-    public struct SampleAdUnitID {
-        static let adFormatAppOpen              = "ca-app-pub-3940256099942544/3419835294"
-        static let adFormatBanner               = "ca-app-pub-3940256099942544/6300978111"
-        static let adFormatInterstitial         = "ca-app-pub-3940256099942544/1033173712"
-        static let adFormatInterstitialVideo    = "ca-app-pub-3940256099942544/8691691433"
-        static let adFormatRewarded             = "ca-app-pub-3940256099942544/5224354917"
-        static let adFormatRewardedInterstitial = "ca-app-pub-3940256099942544/5354046379"
-        static let adFormatNativeAdvanced       = "ca-app-pub-3940256099942544/2247696110"
-        static let adFormatNativeAdvancedVideo  = "ca-app-pub-3940256099942544/1044960115"
-    }
     
     //    MARK: - Block Ads
     public var blockLoadFullScreenAdSuccess: StringBlockAds?

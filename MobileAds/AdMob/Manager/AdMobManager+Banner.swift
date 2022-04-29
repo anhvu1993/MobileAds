@@ -11,14 +11,14 @@ import GoogleMobileAds
 // MARK: - GADBannerView
 extension AdMobManager: GADBannerViewDelegate {
     
-    func getAdBannerView(unitId: String) -> GADBannerView? {
+   fileprivate func getAdBannerView(unitId: String) -> GADBannerView? {
         if let interstitial = listAd.object(forKey: unitId) as? GADBannerView  {
             return interstitial
         }
         return nil
     }
     
-    func createAdBannerIfNeed(unitId: String) -> GADBannerView {
+   public func createAdBannerIfNeed(unitId: String) -> GADBannerView {
         if let adBannerView = self.getAdBannerView(unitId: unitId) {
             return adBannerView
         }
@@ -32,7 +32,7 @@ extension AdMobManager: GADBannerViewDelegate {
     }
     
     // quảng cáo xác định kích thước
-    func addAdBanner(unitId: String, rootVC: UIViewController, view: UIView) {
+    public func addAdBanner(unitId: String, rootVC: UIViewController, view: UIView) {
         let adBannerView = self.createAdBannerIfNeed(unitId: unitId)
         adBannerView.rootViewController = rootVC
         view.addSubview(adBannerView)
@@ -50,7 +50,7 @@ extension AdMobManager: GADBannerViewDelegate {
     }
     
     // quảng có thích ứng với chiều cao không cố định
-    func addAdBannerAdaptive(unitId: String, rootVC: UIViewController, view: UIView) {
+    public func addAdBannerAdaptive(unitId: String, rootVC: UIViewController, view: UIView) {
         let adBannerView = self.createAdBannerIfNeed(unitId: unitId)
         adBannerView.rootViewController = rootVC
         view.addSubview(adBannerView)

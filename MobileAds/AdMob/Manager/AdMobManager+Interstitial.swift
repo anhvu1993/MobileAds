@@ -11,7 +11,7 @@ import GoogleMobileAds
 // MARK: - GADInterstitial
 extension AdMobManager: GADFullScreenContentDelegate {
     
-    func getAdInterstitial(unitId: String) -> GADInterstitialAd? {
+   func getAdInterstitial(unitId: String) -> GADInterstitialAd? {
         if let interstitial = listAd.object(forKey: unitId) as? GADInterstitialAd {
             return interstitial
         }
@@ -19,7 +19,7 @@ extension AdMobManager: GADFullScreenContentDelegate {
     }
     
     /// khởi tạo id ads trước khi show
-    func createAdInterstitialIfNeed(unitId: String) {
+    public func createAdInterstitialIfNeed(unitId: String) {
         if self.getAdInterstitial(unitId: unitId) != nil {
             return
         }
@@ -55,7 +55,7 @@ extension AdMobManager: GADFullScreenContentDelegate {
     }
     
     /// show ads Interstitial
-    func presentAdInterstitial(unitId: String) {
+    public func presentAdInterstitial(unitId: String) {
         self.createAdInterstitialIfNeed(unitId: unitId)
         let interstitial = self.getAdInterstitial(unitId: unitId)
         if let topVC =  UIApplication.getTopViewController() {
@@ -64,7 +64,7 @@ extension AdMobManager: GADFullScreenContentDelegate {
         }
     }
     
-    func showIntertitial(unitId: String) {
+    public func showIntertitial(unitId: String) {
         if AdMobManager.shared.getAdInterstitial(unitId: unitId) != nil {
             guard let rootVC = UIApplication.getTopViewController() else {
                 return

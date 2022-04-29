@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "MobileAds"
-  spec.version      = "1.1.1"
+  spec.version      = "1.1.2"
   spec.summary      = "A small framework extending from Google-Mobile-Ads-SDK"
 
   # This description is used to generate tags and improve search results.
@@ -150,4 +150,5 @@ Pod::Spec.new do |spec|
   spec.dependency "MONActivityIndicatorView", '~> 0.0.3'
   spec.dependency "SnapKit", '~> 5.6.0'
   spec.dependency "Adjust", '~> 4.29.2'
+  spec.dependency "SkeletonView", '~> 1.29.2'
 end
