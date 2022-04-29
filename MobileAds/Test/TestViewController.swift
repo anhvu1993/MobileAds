@@ -15,7 +15,7 @@ public class TestViewController: UIViewController {
         super.viewDidLoad()
        
         imgTest.image = UIImage(named: "ic_test", in: Bundle(for: type(of: self)), compatibleWith: nil)
-        // Do any additional setup after loading the view.
+        // Do any additional setup after loaaddChildViewControllerding the view.
     }
 
 }
