@@ -1,6 +1,6 @@
 //
 //  UIApplication+Extension.swift
-//  EasyScanner
+//  MobileAds
 //
 //  Created by Trung on 16/08/2021.
 //

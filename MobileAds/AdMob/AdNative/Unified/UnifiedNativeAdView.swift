@@ -1,6 +1,6 @@
 //
 //  Unifiedself.swift
-//  EasyScanner
+//  MobileAds
 //
 //  Created by macbook on 30/08/2021.
 //
@@ -28,7 +28,7 @@ class UnifiedNativeAdView: GADNativeAdView, NativeViewProtocol {
 
         bodyLabel.text = nativeAd.body
         bodyLabel.isHidden = nativeAd.body == nil
-        actionButton.backgroundColor = AdMobManager.shared.setBackgroundButtonAds
+        actionButton.backgroundColor = AdMobManager.shared.backgroundButtonAdsNative
         actionButton.setTitle(nativeAd.callToAction, for: .normal)
         actionButton.isHidden = nativeAd.callToAction == nil
         

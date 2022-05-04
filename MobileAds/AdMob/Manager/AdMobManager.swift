@@ -1,11 +1,12 @@
 //
 //  AdMobManager.swift
-//  EasyScanner
+//  MobileAds
 //
 //  Created by macbook on 28/08/2021.
 //
 
 import Foundation
+import UIKit
 import GoogleMobileAds
 import SkeletonView
 import Adjust
@@ -31,7 +32,7 @@ open class AdMobManager: NSObject {
     public var showAdRewardCount = 0
     public var listAd: NSMutableDictionary = NSMutableDictionary()
     public var listLoader: NSMutableDictionary = NSMutableDictionary()
-    public var setBackgroundButtonAds: UIColor = UIColor(hex: 0x007AFF)
+    public var backgroundButtonAdsNative: UIColor = UIColor(hex: 0x007AFF)
     
     //    MARK: - Block Ads
     public var blockLoadFullScreenAdSuccess: StringBlockAds?

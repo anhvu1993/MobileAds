@@ -36,7 +36,6 @@
 		762F5550281A709E0000FB10 /* ConstraintsAds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762F5539281A709E0000FB10 /* ConstraintsAds.swift */; };
 		762F5553281A81D50000FB10 /* UIApplication+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762F5552281A81D50000FB10 /* UIApplication+Extension.swift */; };
 		762F5556281A82B10000FB10 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762F5555281A82B10000FB10 /* UIColor+Extension.swift */; };
-		762FF57827E07F2700FA8684 /* AdsMedia.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 762FF57727E07F2700FA8684 /* AdsMedia.xcassets */; };
 		7695570027E19EAE0028127E /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769556FE27E19EAE0028127E /* TestViewController.swift */; };
 		7695570627E1A6010028127E /* BundleAds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7695570527E1A6010028127E /* BundleAds.swift */; };
 		7695570927E1BDA80028127E /* TestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7695570827E1BDA80028127E /* TestManager.swift */; };
@@ -441,7 +440,6 @@
 			files = (
 				760580C227E3286000975794 /* TestViewController.xib in Resources */,
 				762F553A281A709E0000FB10 /* Media.xcassets in Resources */,
-				762FF57827E07F2700FA8684 /* AdsMedia.xcassets in Resources */,
 				762F5541281A709E0000FB10 /* MediumNativeAdView.xib in Resources */,
 				762F5544281A709E0000FB10 /* SmallNativeAdView.xib in Resources */,
 				762F554A281A709E0000FB10 /* AdFullScreenLoadingVC.xib in Resources */,

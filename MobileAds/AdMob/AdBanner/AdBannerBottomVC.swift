@@ -1,6 +1,6 @@
 //
 //  AdBannerBottomVC.swift
-//  EasyScanner
+//  MobileAds
 //
 //  Created by macbook on 28/08/2021.
 //

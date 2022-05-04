@@ -1,6 +1,6 @@
 //
 //  AdMobManager+Native.swift
-//  EasyScanner
+//  MobileAds
 //
 //  Created by macbook on 29/08/2021.
 //

@@ -1,6 +1,6 @@
 //
 //  SmallNativeAdView.swift
-//  EasyScanner
+//  MobileAds
 //
 //  Created by macbook on 30/08/2021.
 //
@@ -50,7 +50,7 @@ class SmallNativeAdView: GADNativeAdView, NativeViewProtocol {
         
         (self.starRatingView as? UIImageView)?.image = self.imageOfStars(from: nativeAd.starRating)
         self.starRatingView?.isHidden = nativeAd.starRating == nil
-        self.callToActionView?.backgroundColor = AdMobManager.shared.setBackgroundButtonAds
+        self.callToActionView?.backgroundColor = AdMobManager.shared.backgroundButtonAdsNative
 //        (self.storeView as? UILabel)?.text = nativeAd.store
 //        self.storeView?.isHidden = nativeAd.store == nil
         

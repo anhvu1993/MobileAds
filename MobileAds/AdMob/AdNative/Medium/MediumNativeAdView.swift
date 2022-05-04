@@ -1,6 +1,6 @@
 //
 //  MediumNativeAdView.swift
-//  EasyScanner
+//  MobileAds
 //
 //  Created by Quang Ly Hoang on 25/02/2022.
 //
@@ -23,7 +23,7 @@ class MediumNativeAdView: GADNativeAdView, NativeViewProtocol {
         (headlineView as? UILabel)?.text = nativeAd.headline
         (callToActionView as? UIButton)?.setTitle(nativeAd.callToAction, for: .normal)
         callToActionView?.isHidden = nativeAd.callToAction == nil
-        callToActionView?.backgroundColor = AdMobManager.shared.setBackgroundButtonAds
+        callToActionView?.backgroundColor = AdMobManager.shared.backgroundButtonAdsNative
         (iconView as? UIImageView)?.image = nativeAd.icon?.image
         iconView?.isHidden = nativeAd.icon == nil
         

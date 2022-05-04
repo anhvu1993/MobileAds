@@ -1,6 +1,6 @@
 //
 //  AdMobFullScreenType.swift
-//  IOSGuild
+//  MobileAds
 //
 //  Created by Quang Ly Hoang on 23/02/2022.
 //
